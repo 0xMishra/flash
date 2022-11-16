@@ -157,7 +157,7 @@ function App() {
 
   async function addTokenFunction() {
     try {
-      const tokenAddress = "0xa6F4aE0b6323a287A4322836d3d3A009eB8B0447";
+      const tokenAddress = STABLE_COIN_ADDRESS;
       const tokenSymbol = "NDL";
       const tokenDecimals = 18;
       const wasAdded = await ethereum.request({
